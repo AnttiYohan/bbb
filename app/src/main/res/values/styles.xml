@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="blazeHead">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/blazeText</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="blazeBread">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blazeText</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="blazeHeadDark">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/blazeTextDark</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="blazeCenter">
+        <item name="android:padding">@dimen/pad</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="blazeContainer">
+        <item name="android:padding">@dimen/pad</item>
+    </style>
+</resources>

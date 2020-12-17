@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/blazeButtonBgCenter"
+        android:centerColor="@color/blazeButtonBgCenter"
+        android:endColor="@color/blazeButtonBgEnd"
+        />
+    <stroke
+        android:width="6dp"
+        android:color="#7f444400"
+        />
+    <corners
+        android:radius="@dimen/pad"
+        />
+</shape>

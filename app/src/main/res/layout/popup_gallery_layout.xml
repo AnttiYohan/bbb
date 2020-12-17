@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginHorizontal="@dimen/pad"
+    android:layout_marginVertical="64dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blazeButtonBgStart"
+    android:weightSum="100"
+    >
+    <ListView
+        android:id="@+id/listview_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        />
+    <Button
+        android:id="@+id/button_cancel_popup"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:gravity="center"
+        android:textAppearance="@style/blazeHead"
+        android:text="     PERUUTA"
+        android:drawableRight="@drawable/cancel"
+        android:paddingRight="8dp"
+        android:layout_weight="20"
+        />
+</LinearLayout>
